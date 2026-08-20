@@ -1,0 +1,48 @@
+Main Program — Correct Password
+================================
+     PASSWORD-BASED DOOR LOCK
+================================
+
+Enter password: 1234
+
+Access Granted
+Door Unlocked
+
+Thank you.
+Main Program — Wrong Password
+================================
+     PASSWORD-BASED DOOR LOCK
+================================
+
+Enter password: 1111
+Incorrect Password
+Attempts remaining: 2
+
+Enter password: 2222
+Incorrect Password
+Attempts remaining: 1
+
+Enter password: 3333
+Incorrect Password
+
+Too many incorrect attempts.
+Door Locked
+System Security Activated.
+
+================================
+         SYSTEM LOCKED
+================================
+
+Thank you.
+Testbench Output
+================================
+   DOOR LOCK TESTBENCH
+================================
+Test 1: Correct Password - PASS
+Test 2: Incorrect Password - PASS
+Test 3: Wrong Password Detection - PASS
+Test 4: Access After Correct Password - PASS
+Test 5: Three Wrong Attempts - PASS
+================================
+All tests completed.
+================================
